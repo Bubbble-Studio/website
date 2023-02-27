@@ -6,6 +6,15 @@
   data-wf-site="62680721333f58cc8371bbb8"
   data-wf-status="1"
 >
+  <link
+    href="https://assets.calendly.com/assets/external/widget.css"
+    rel="stylesheet"
+  />
+  <script
+    src="https://assets.calendly.com/assets/external/widget.js"
+    type="text/javascript"
+    async
+  ></script>
   <head>
     <meta charset="utf-8" />
     <title>Bubbble Studio | We do everything</title>
@@ -507,6 +516,7 @@
               style="opacity: 0"
               href="/contact-us"
               class="service-button w-button"
+              onclick="Calendly.initPopupWidget({url: 'https://calendly.com/bubbble-studio/30min'});return false;"
               >Request a project</a
             >
           </div>
